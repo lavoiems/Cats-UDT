@@ -121,7 +121,7 @@ python src/evaluate.py sg_sem-fetch_results_sr --state-dict-path experiments/sg-
 To fetch results, use the script `fetch_results.py`, provided. Similarly, one can compute the FID using the script `compute_fid.py`.
 
 
-## Results
+## Results Unsupervised Domain Translation.
 
 **Sketch->Real**
 
