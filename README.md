@@ -125,10 +125,10 @@ To fetch results, use the script `fetch_results.py`, provided. Similarly, one ca
 
 **Sketch->Real**
 
-![](assets/ours_s-r.png)
+![](assets/ours_sr.png)
 
 
 **MNIST->SVHN**
 
-![](assets/ours_m-s.png)
+![](assets/ours_ms.png)
 
