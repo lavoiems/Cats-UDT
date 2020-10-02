@@ -117,3 +117,18 @@ To create the Sketches->Reals grid, simply run the following command:
 python src/evaluate.py sg_sem-fetch_results_sr --state-dict-path experiments/sg-sem_sketch-real-None/model/nets_ema:100000.ckpt --data-root-src data/test_all/sketch --domain 0 --ss-path moco_v2_800ep_pretrain.pth.tar --da-path experiments/vmtc_repr/vmtc-repr_sketch-real-None/ --save-name Sketch-Real --model-path experiments/sg-sem_sketch-real-None
 ```
 
+#### Fetch the results
+To fetch results, use the script `fetch_results.py`, provided. Similarly, one can compute the FID using the script `compute_fid.py`.
+
+
+## Results
+
+**Sketch->Real**
+
+![](assets/ours_s-r.png)
+
+
+**MNIST->SVHN**
+
+![](assets/ours_m-s.png)
+
